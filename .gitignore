@@ -1,0 +1,22 @@
+# Build and release outputs
+*.exe
+*.pdb
+*.zip
+*.sha256
+dist/
+build/
+
+# Personal Codex context, local shortcuts, and operation records
+context.json
+*.lnk
+logs/
+last-check.json
+last-error.txt
+lifecycle-checks.txt
+*cleanup-record.json
+VERIFICATION.md
+
+# Editor files
+.vs/
+*.user
+*.suo
